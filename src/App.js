@@ -75,17 +75,20 @@ const App = () => {
             </div>
           </div>
           <div className="col-lg-4 mt-3">
-            <div class="alert alert-danger text-weight-bold h3" role="alert">
+            <div
+              className="alert alert-danger text-weight-bold h3"
+              role="alert"
+            >
               Alert!
             </div>
-            <div class="alert alert-success" role="alert">
-              <h4 class="alert-heading">Just a Word for you!</h4>
+            <div className="alert alert-success" role="alert">
+              <h4 className="alert-heading">Just a Word for you!</h4>
               <p>
                 This website simply calculates whether your DOB is a lucky one
                 or not!
               </p>
               <hr />
-              <p class="mb-0">
+              <p className="mb-0">
                 Your private information is in no way being stored anywhere!
               </p>
             </div>
