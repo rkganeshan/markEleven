@@ -64,7 +64,7 @@ const App = () => {
               style={{ fontSize: "25px" }}
               onClick={clickHandler}
             >
-              Success
+              Check
             </button>
             <div className="container mt-3">
               <p
